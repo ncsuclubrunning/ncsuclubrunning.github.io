@@ -1,0 +1,84 @@
+---
+layout: default
+title: "Training"
+id: "training"
+custom_css:
+  - training/training.css
+custom_js:
+  - training/pace_calculator.js
+---
+
+<h1>Training Guide</h1>
+
+<h2>Pace Chart</h2>
+
+<p> Enter your 5k time in the field below, then press Submit. You may enter time in the format MM:SS or H:MM:SS.</p>
+
+5k Time: <input id="time-input" type="text">
+
+<button onclick="showPaces()">Submit</button>
+
+<div id="paces-output"></div>
+
+<table>
+    <tr>
+        <th>5K</th><th>800</th><th>Mile</th><th>3K</th><th>5K</th><th>6K</th><th>8K</th><th>10K</th><th>vLT</th><th>Half marathon</th><th>Marathon</th>
+    </tr>
+    <tr>
+        <td>15:00</td><td>3:48</td><td>4:18</td><td>4:34</td><td>4:50</td><td>4:53</td><td>4:56</td><td>5:00</td><td>5:09</td><td>5:18</td><td>5:35</td></tr><td>15:30</td><td>3:55</td><td>4:26</td><td>4:43</td><td>4:59</td><td>5:02</td><td>5:06</td><td>5:09</td><td>5:18</td><td>5:28</td><td>5:45</td>
+    </tr>
+    <tr>
+        <td>15:30</td><td>3:56</td><td>4:26</td><td>4:43</td><td>4:59</td><td>5:03</td><td>5:06</td><td>5:10</td><td>5:19</td><td>5:29</td><td>5:46</td>
+    </tr>
+    <tr>
+        <td>16:00</td><td>4:03</td><td>4:35</td><td>4:52</td><td>5:09</td><td>5:12</td><td>5:16</td><td>5:20</td><td>5:29</td><td>5:39</td><td>5:57</td>
+    </tr>
+    <tr>
+        <td>16:30</td><td>4:11</td><td>4:44</td><td>5:02</td><td>5:19</td><td>5:22</td><td>5:26</td><td>5:30</td><td>5:40</td><td>5:50</td><td>6:08</td>
+    </tr>
+    <tr>
+    <td>17:00</td><td>4:19</td><td>4:52</td><td>5:11</td><td>5:28</td><td>5:32</td><td>5:36</td><td>5:40</td><td>5:50</td><td>6:01</td><td>6:19</td>
+    </tr>
+    <tr>
+        <td>17:30</td><td>4:26</td><td>5:01</td><td>5:20</td><td>5:38</td><td>5:42</td><td>5:46</td><td>5:50</td><td>6:00</td><td>6:11</td><td>6:31</td>
+    </tr>
+    <tr>
+        <td>18:00</td><td>4:34</td><td>5:09</td><td>5:29</td><td>5:48</td><td>5:51</td><td>5:56</td><td>6:00</td><td>6:10</td><td>6:22</td><td>6:42</td>
+    </tr>
+    <tr>
+        <td>18:30</td><td>4:41</td><td>5:18</td><td>5:38</td><td>5:57</td><td>6:01</td><td>6:05</td><td>6:10</td><td>6:21</td><td>6:32</td><td>6:53</td>
+    </tr>
+    <tr>
+        <td>19:00</td><td>4:49</td><td>5:26</td><td>5:47</td><td>6:07</td><td>6:11</td><td>6:15</td><td>6:20</td><td>6:31</td><td>6:43</td><td>7:04</td>
+    </tr>
+    <tr>
+        <td>19:30</td><td>4:57</td><td>5:35</td><td>5:56</td><td>6:17</td><td>6:21</td><td>6:25</td><td>6:30</td><td>6:41</td><td>6:54</td><td>7:15</td>
+    </tr>
+    <tr>
+        <td>20:00</td><td>5:04</td><td>5:44</td><td>6:06</td><td>6:26</td><td>6:31</td><td>6:35</td><td>6:40</td><td>6:52</td><td>7:04</td><td>7:26</td>
+    </tr>
+    <tr>
+        <td>20:30</td><td>5:12</td><td>5:52</td><td>6:15</td><td>6:36</td><td>6:40</td><td>6:45</td><td>6:50</td><td>7:02</td><td>7:15</td><td>7:37</td>
+    </tr>
+    <tr>
+        <td>21:00</td><td>5:19</td><td>6:01</td><td>6:24</td><td>6:45</td><td>6:50</td><td>6:55</td><td>7:00</td><td>7:12</td><td>7:26</td><td>7:49</td>
+    </tr>
+    <tr>
+        <td>21:30</td><td>5:27</td><td>6:09</td><td>6:33</td><td>6:55</td><td>7:00</td><td>7:05</td><td>7:10</td><td>7:22</td><td>7:36</td><td>8:00</td>
+    </tr>
+    <tr>
+        <td>22:00</td><td>5:35</td><td>6:18</td><td>6:42</td><td>7:05</td><td>7:10</td><td>7:15</td><td>7:20</td><td>7:33</td><td>7:47</td><td>8:11</td>
+    </tr>
+    <tr>
+        <td>22:30</td><td>5:42</td><td>6:27</td><td>6:51</td><td>7:14</td><td>7:19</td><td>7:24</td><td>7:30</td><td>7:43</td><td>7:57</td><td>8:22</td>
+    </tr>
+    <tr>
+        <td>23:00</td><td>5:50</td><td>6:35</td><td>7:00</td><td>7:24</td><td>7:29</td><td>7:34</td><td>7:40</td><td>7:53</td><td>8:08</td><td>8:33</td>
+    </tr>
+    <tr>
+        <td>23:30</td><td>5:57</td><td>6:44</td><td>7:10</td><td>7:34</td><td>7:39</td><td>7:44</td><td>7:50</td><td>8:04</td><td>8:19</td><td>8:44</td>
+    </tr>
+    <tr>
+        <td>24:00</td><td>6:05</td><td>6:52</td><td>7:19</td><td>7:43</td><td>7:49</td><td>7:54</td><td>8:00</td><td>8:14</td><td>8:29</td><td>8:56</td>
+    </tr>
+</table>

@@ -1,0 +1,48 @@
+---
+layout: default
+title: "Contact Us"
+id: "contact-us"
+custom_css:
+  - contact-us/contact-us.css
+---
+
+<h1>Contact Us</h1>
+
+<p>For any questions or concerns, email us at <a href="mailto:cctrack-club@ncsu.edu">cctrack-club@ncsu.edu</a> or fill out the form below.</p>
+
+<p>For more information about long runs, practices, social events, and more please visit our <a href="{{ site.facebook_page }}">Facebook page</a>.</p>
+
+<p>For general information about club sports, visit the <a href="http://recreation.ncsu.edu/club-sports/">club sports homepage</a>.</p>
+
+<!--
+<iframe src="https://docs.google.com/a/ncsu.edu/forms/d/1vzlXizvaYOdAGG4z-iCwQxoBaW0FNZ6TK0xoYvThWzg/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+-->
+
+<form name="contact-form" action="submit.php" method="post">
+    <fieldset>
+        <legend>Contact us</legend>
+
+        <table>
+            <tr>
+                <td><label for="name">Name (optional):</label></td>
+                <td><input type="text" id="name" name="name"></td>
+            </tr>
+
+            <tr>
+                <td><label for="from">Email (optional):</label></td>
+                <td>
+                    <input type="text" id="from" name="from">
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="message">Message (required):</label></td>
+                <td><textarea id="message" rows="6" name="message" required></textarea></td>
+            </tr>
+        </table>
+
+        <div id="submit-container">
+            <button type="submit">Send your message</button>
+        </div>
+    </fieldset>
+</form>

@@ -1,0 +1,20 @@
+---
+layout: default
+title: "Club Officers"
+id: "club-officers"
+custom_css:
+  - club-officers/club-officers.css
+---
+
+<h1>Club Officers</h1>
+
+{% for officer in site.data.club_officers %}
+    <section>
+        <h2>{{ officer.name }}: {{ officer.position }}</h2>
+
+        <p class="profile">
+            <img src="{{ officer.image_url | replace: "!SITE_URL!", site.baseurl }}" alt="Profile picture of {{ officer.name }}">
+            {{ officer.biography }}
+        </p>
+    </section>
+{% endfor %}

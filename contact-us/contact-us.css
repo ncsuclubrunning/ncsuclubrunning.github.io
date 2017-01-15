@@ -1,0 +1,38 @@
+/*
+* { border: 1px dotted gray; }
+*/
+
+form {
+    margin: 0 auto;
+    max-width: 550px;
+}
+
+form table {
+    width: 100%;
+    table-layout: fixed;
+}
+
+form table td {
+    padding: 5px;
+}
+
+form table tr td:first-child {
+    width: 150px;
+    text-align: right;
+    vertical-align: top;
+}
+
+form input, form textarea {
+    -moz-box-sizing: border-box;
+         box-sizing: border-box;
+    width: 100%;
+}
+
+form textarea {
+    resize: vertical;
+    /*height: 150px;*/
+}
+
+#submit-container {
+    text-align: center;
+}

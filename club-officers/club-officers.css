@@ -1,0 +1,15 @@
+.profile img {
+    width: 250px;
+    float: left;
+
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.profile {
+    overflow: auto;
+}
+
+main :last-child .profile {
+    margin-bottom: 0;
+}

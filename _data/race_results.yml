@@ -1,0 +1,154 @@
+# name - display name of the meet or event (will be displayed on results page)
+# male_results_url - URL to male results
+# female_results_url - URL to female results
+# date - the date of the occurrence of the meet written in the format YYYY-MM-DD
+
+# Use "!SITE_URL!" in results URLs when you need the value of site.baseurl
+# to be inserted. This is useful for local files (PDFs). See below for usage examples.
+
+# TEMPLATE
+
+#- name: ""
+#  male_results_url: "!SITE_URL!/race-results/results/YYYY/XXXX-XX-XX-men.pdf"
+#  female_results_url: "!SITE_URL!/race-results/results/YYYY/XXXX-XX-XX-women.pdf"
+#  date: YYYY-MM-DD
+
+- name: "NIRCA Cross Country National Championship"
+  male_results_url: "http://clubrunning.org/races/race_results.php?race=396"
+  female_results_url: "http://clubrunning.org/races/race_results.php?race=396"
+  date: 2016-11-12
+
+- name: "NIRCA Southeast Regional"
+  male_results_url: "!SITE_URL!/race-results/results/2016/2016-10-22-nirca-southeast-regional.pdf"
+  female_results_url: "!SITE_URL!/race-results/results/2016/2016-10-22-nirca-southeast-regional.pdf"
+  date: 2016-10-22
+
+- name: "Hagan Stone"
+  male_results_url: "!SITE_URL!/race-results/results/2016/2016-10-01-hagan-stone-men.pdf"
+  female_results_url: "!SITE_URL!/race-results/results/2016/2016-10-01-hagan-stone-women.pdf"
+  date: 2016-10-01
+
+- name: "Run With the Pack 5K"
+  male_results_url: "!SITE_URL!/race-results/results/2016/2016-09-24-run-with-the-pack-5k-men.pdf"
+  female_results_url: "!SITE_URL!/race-results/results/2016/2016-09-24-run-with-the-pack-5k-women.pdf"
+  date: 2016-09-24
+
+- name: "Aggie Invitational"
+  male_results_url: "!SITE_URL!/race-results/results/2016/2016-04-09-aggie-invitational-men.pdf"
+  female_results_url: "!SITE_URL!/race-results/results/2016/2016-04-09-aggie-invitational-women.pdf"
+  date: 2016-04-09
+
+- name: "Emerald Isle Half Marathon"
+  male_results_url: "http://www.itsyourrace.com/Results.aspx?&id=6238&y=2016&eid=30569&g=m&amin=0&amax=99&s=&srch="
+  female_results_url: "http://www.itsyourrace.com/Results.aspx?&id=6238&y=2016&eid=30569&g=f&amin=0&amax=99&s=&srch="
+  date: 2016-04-09
+
+- name: "Adidas Cross Country Challenge"
+  male_results_url: "!SITE_URL!/race-results/results/2016/2016-09-16-adidas-cross-country-challenge-men.pdf"
+  female_results_url: "!SITE_URL!/race-results/results/2016/2016-09-16-adidas-cross-country-challenge-women.pdf"
+  date: 2016-09-16
+
+- name: "HPU Vertklasse Meeting"
+  male_results_url: "!SITE_URL!/race-results/results/2016/2016-04-02-hpu-vertklasse-meeting.pdf"
+  female_results_url: "!SITE_URL!/race-results/results/2016/2016-04-02-hpu-vertklasse-meeting.pdf"
+  date: 2016-04-02
+
+- name: "Carolina Relays"
+  male_results_url: "!SITE_URL!/race-results/results/2016/2016-03-19-carolina-relays.pdf"
+  female_results_url: "!SITE_URL!/race-results/results/2016/2016-03-19-carolina-relays.pdf"
+  date: 2016-03-19
+
+- name: "UCS Invitational"
+  male_results_url: "!SITE_URL!/race-results/results/2016/2016-02-20-ucs-invitational.pdf"
+  female_results_url: "!SITE_URL!/race-results/results/2016/2016-02-20-ucs-invitational.pdf"
+  date: 2016-02-20
+
+- name: "Krispy Kreme Challenge"
+  male_results_url: "http://www.precisionrace.com/krispy-kreme-challenge-results/"
+  female_results_url: "http://www.precisionrace.com/krispy-kreme-challenge-results/"
+  date: 2016-02-06
+
+- name: "Camel City Invitational"
+  male_results_url: "!SITE_URL!/race-results/results/2016/2016-01-29-camel-city-invitational-men.pdf"
+  female_results_url: "!SITE_URL!/race-results/results/2016/2016-01-29-camel-city-invitational-women.pdf"
+  date: 2016-01-29
+
+- name: "Wake Forest Invitational"
+  male_results_url: "!SITE_URL!/race-results/results/2016/2016-01-16-wake-forest-invitational-men.pdf"
+  female_results_url: "!SITE_URL!/race-results/results/2016/2016-01-16-wake-forest-invitational-women.pdf"
+  date: 2016-01-16
+
+- name: "NIRCA XC National Championship"
+  male_results_url: "!SITE_URL!/race-results/results/2015/2015-11-14-nirca-nationals.pdf"
+  female_results_url: "!SITE_URL!/race-results/results/2015/2015-11-14-nirca-nationals.pdf"
+  date: 2015-11-14
+
+- name: "NIRCA Southeast Cross Country Regionals"
+  male_results_url: "!SITE_URL!/race-results/results/2015/2015-10-24-southeast-regionals.pdf"
+  female_results_url: "!SITE_URL!/race-results/results/2015/2015-10-24-southeast-regionals.pdf"
+  date: 2015-10-24
+
+- name: "Hagan Stone XC Classic"
+  male_results_url: "!SITE_URL!/race-results/results/2015/2015-09-26-hagan-stone-men.pdf"
+  female_results_url: "!SITE_URL!/race-results/results/2015/2015-09-26-hagan-stone-women.pdf"
+  date: 2015-09-26
+
+- name: "Wolfpack Invitational"
+  male_results_url: "!SITE_URL!/race-results/results/2015/2015-09-18-wolfpack-invitational-men.pdf"
+  female_results_url: "!SITE_URL!/race-results/results/2015/2015-09-18-wolfpack-invitational-women.pdf"
+  date: 2015-09-18
+
+- name: "Fadi Hanna Memorial Invitational"
+  male_results_url: "!SITE_URL!/race-results/results/2015/2015-09-12-fadi-hanna-memorial-invitational-men.pdf"
+  female_results_url: "!SITE_URL!/race-results/results/2015/2015-09-12-fadi-hanna-memorial-invitational-women.pdf"
+  date: 2015-09-12
+
+- name: "Aggie Invitational"
+  male_results_url: "!SITE_URL!/race-results/results/2015/2015-04-11-aggie-invitational.pdf"
+  female_results_url: "!SITE_URL!/race-results/results/2015/2015-04-11-aggie-invitational.pdf"
+  date: 2015-04-11
+
+- name: "High Point VertKlasse Invitational"
+  male_results_url: "!SITE_URL!/race-results/results/2015/2015-04-04-high-point-vertklasse-invitational-men.pdf"
+  female_results_url: "!SITE_URL!/race-results/results/2015/2015-04-04-high-point-vertklasse-invitational-women.pdf"
+  date: 2015-04-04
+
+- name: "Emerald Isle Half Marathon"
+  male_results_url: "!SITE_URL!/race-results/results/2015/2015-03-28-emerald-isle-half-marathon.pdf"
+  female_results_url: "!SITE_URL!/race-results/results/2015/2015-03-28-emerald-isle-half-marathon.pdf"
+  date: 2015-03-28
+
+- name: "Carolina Relays"
+  male_results_url: "!SITE_URL!/race-results/results/2015/2015-03-20-carolina-relays-men.pdf"
+  female_results_url: "!SITE_URL!/race-results/results/2015/2015-03-20-carolina-relays-women.pdf"
+  date: 2015-03-20
+
+- name: "UCS Invitational"
+  male_results_url: "!SITE_URL!/race-results/results/2015/2015-02-21-ucs-invitational-men.pdf"
+  female_results_url: "!SITE_URL!/race-results/results/2015/2015-02-21-ucs-invitational-women.pdf"
+  date: 2015-02-21
+
+- name: "Krispy Kreme Challenge"
+  male_results_url: "http://krispykreme.itsyourrace.com/ResultsAdvanced.aspx?id=89&y=2015"
+  female_results_url: "http://krispykreme.itsyourrace.com/ResultsAdvanced.aspx?id=89&y=2015"
+  date: 2015-02-14
+
+- name: "Hilton Garden Invitational"
+  male_results_url: "!SITE_URL!/race-results/results/2015/2015-01-31-hilton-garden-invitational-men.pdf"
+  female_results_url: "!SITE_URL!/race-results/results/2015/2015-01-31-hilton-garden-invitational-women.pdf"
+  date: 2015-01-31
+
+- name: "UNC Open"
+  male_results_url: "!SITE_URL!/race-results/results/2015/2015-01-17-unc-open-men.pdf"
+  female_results_url: "!SITE_URL!/race-results/results/2015/2015-01-17-unc-open-women.pdf"
+  date: 2015-01-17
+
+- name: "Wake Forest Invitational"
+  male_results_url: "!SITE_URL!/race-results/results/2015/2015-01-10-wake-forest-invitational-men.pdf"
+  female_results_url: "!SITE_URL!/race-results/results/2015/2015-01-10-wake-forest-invitational-women.pdf"
+  date: 2015-01-10
+
+- name: "NIRCA Southeast Cross Country Regionals"
+  male_results_url: "!SITE_URL!/race-results/results/2014/2014-11-01-nirca-southeast-cross-country-regionals-men.pdf"
+  female_results_url: "!SITE_URL!/race-results/results/2014/2014-11-01-nirca-southeast-cross-country-regionals-women.pdf"
+  date: 2014-11-01

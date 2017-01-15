@@ -1,0 +1,43 @@
+---
+layout: default
+title: "Race Results"
+id: "race-results"
+---
+
+<h1>Race Results</h1>
+
+<p>
+    <a href="https://docs.google.com/spreadsheets/d/1ygg34QPxoqRATfF1FckE--XIK91qrUkoIvf37kZc1Ek/edit?pli=1#gid=0">
+        Club records
+    </a>
+</p>
+
+
+
+
+
+{% assign results = site.data.race_results | sort: "date" %}
+{% for result in results reversed %}
+    {% assign current_year = result.date | date: "%Y" %}
+
+    {% if current_year != year %}
+        {% unless forloop.first %}
+            </ul>
+        {% endunless %}
+
+        <h1>{{ current_year }} results</h1>
+        <ul>
+
+        {% assign year = current_year %}
+    {% endif %}
+    
+    <li>{{ result.name }} - {{ result.date | date: "%x" }}
+        (<a href="{{ result.male_results_url | replace: "!SITE_URL!", site.baseurl }}">Men's results</a>
+        |
+        <a href="{{ result.female_results_url | replace: "!SITE_URL!", site.baseurl }}">Women's results</a>)
+    </li>
+
+    {% if forloop.last %}
+        </ul>
+    {% endif %}
+{% endfor %}

@@ -1,0 +1,16 @@
+main table {
+    width:100%;
+    border: 1px solid #cccccc;
+} 
+
+main td, th {
+    text-align: center;
+    color: #333333;
+    padding: 15px 10px;
+    border-right: 1px solid #cccccc; 
+}
+
+main #paces-output {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}

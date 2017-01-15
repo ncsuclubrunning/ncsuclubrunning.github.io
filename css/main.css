@@ -1,0 +1,284 @@
+---
+# Empty YAML block used here so we can access site.baseurl
+---
+
+/*
+ * Table of contents:
+ * 
+ *     ##general
+ *     ##header
+ *     ##page-layout
+ *     ##sidebar
+ *     ##main
+ *     ##footer
+ */
+
+/*************
+ * ##general *
+ *************/
+
+body {
+    background-color: #f2f2f2;
+
+    /* Always show the scroll bar to prevent page jumping */
+    overflow-y: scroll;
+}
+
+html * {
+    font-family: equiplight;
+}
+
+h1 { font-size: 3.0em; }
+h2 { font-size: 2.0em; }
+h3 { font-size: 1.6em; }
+h4 { font-size: 1.3em; }
+h5 { font-size: 1.1em; }
+h6 { font-size: 0.9em; }
+
+p, ul, ol {
+    font-size: 1.15em;
+}
+
+/* Fixes nested lists getting larger */
+ul ul, ol ol {
+    font-size: 100%;
+}
+
+hr {
+    height: 4px;
+    border: 0;
+    background: #f2f2f2;
+}
+
+
+
+
+
+/************
+ * ##header *
+ ************/
+
+header {
+    height: 230px;
+    background-image: url("{{ site.baseurl }}/img/practice.jpg");
+    background-size: 130%;
+    background-position: 0% 41%;
+    border-bottom: 10px solid white;
+}
+
+
+
+
+
+/*****************
+ * ##page-layout *
+ *****************/
+
+#page-wrapper {
+    padding: 0 20px;
+}
+
+/* Big screens */
+
+@media (min-width: 700px) {
+    #page-wrapper {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    #sidebar {
+        width: 300px;
+        float: left;
+
+        position: relative;
+        top: -150px;
+        /* Hide the empty space caused by the relative positioning */
+        /* 150px offset - 20px margin */
+        margin-bottom: -130px;
+    }
+
+    nav {
+        margin-top: 20px;
+    }
+
+    main {
+        margin-left: 320px;
+    }
+}
+
+/* Small screens */
+
+@media (max-width: 700px) {
+    #logo {
+        display: block;
+        text-align: center;
+        margin: 20px;
+    }
+
+    header {
+        display: none;
+    }
+}
+
+
+
+
+
+/*************
+ * ##sidebar *
+ *************/
+
+#logo img {
+    width: 300px;
+
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+
+    border: 10px solid white;
+}
+
+nav {
+    background-color: white;
+    line-height: 100%;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+nav ul a {
+    display: block;
+    padding: 20px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.4em;
+    font-family: equiplight;
+}
+
+/* Styling for the active link */
+
+nav li.active,
+nav li:hover {
+    background-color: #cc0000;
+}
+
+nav li.active a,
+nav li:hover a {
+    color: white;
+}
+
+nav li.active a::after,
+nav li:hover a::after {
+    content: "\00bb"; /* right guillemet (looks like an arrow)*/
+    float: right;
+    color: white;
+}
+
+/* Divider line in sidebar */
+
+nav hr {
+    margin: 10px 20px;
+    border: 4px solid #f2f2f2;
+    height: 0;
+}
+
+/* Icons at the bottom of the sidebar */
+
+#sidebar-icons {
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+
+#sidebar-icons img {
+    width: 50px;
+    height: 50px;
+}
+
+#sidebar-icons a {
+}
+
+#sidebar-icons a:nth-child(1) {
+    float: left;
+}
+
+#sidebar-icons a:nth-child(3) {
+    float: right;
+}
+
+
+
+
+
+/**********
+ * ##main *
+ **********/
+
+main {
+    background-color: white;
+    margin-top: 20px;
+    padding: 40px;
+}
+
+main > :first-child {
+    margin-top: 0;
+}
+
+main > :last-child {
+    margin-bottom: 0;
+}
+
+main h1.title {
+    text-align: center;
+}
+
+
+
+
+
+/************
+ * ##footer *
+ ************/
+
+footer {
+    clear: both;
+    background-color: #333333;
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+footer > :first-child {
+    margin-top: 0;
+}
+
+footer > :last-child {
+    margin-bottom: 0;
+}
+
+#footer-licenses,
+#footer-licenses a,
+#footer-copyright {
+    color: #666666;
+}
+
+#footer-sitemap {
+    font-size: 1.2em;
+}
+
+#footer-sitemap,
+#footer-sitemap a {
+    color: #cccccc;
+    text-decoration: none;
+}
+
+#footer-sitemap a:hover {
+    text-decoration: underline;
+}

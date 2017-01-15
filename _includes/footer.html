@@ -1,0 +1,18 @@
+<footer>
+    <p id="footer-sitemap">
+        {% for node in site.page_data %}
+            <a href="{{ site.baseurl }}/{{ node.url }}">{{ node.title }}</a>
+            
+            {% unless forloop.last %}
+                &nbsp;&nbsp;|&nbsp;&nbsp;
+            {% endunless %}
+        {% endfor %}
+    </p>
+
+    <p id="footer-licenses">
+        (Email/Facebook/Pin) icon made by (Yannick/Bogdan Rosu/Freepik) from <a href="http://www.flaticon.com/" target="_blank">www.flaticon.com</a> is licensed under CC BY 3.0.
+    </p>
+
+    <p id="footer-copyright">&copy; {{ site.time | date: '%Y' }} Cross Country and Track Club at NC State. All rights reserved.</p>
+</footer>
+

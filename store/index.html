@@ -1,0 +1,53 @@
+---
+layout: default
+title: "Store"
+id: "store"
+custom_css:
+  - store/store.css
+---
+
+<h1>Store</h1>
+
+<hr>
+
+<!-- Club dues buttons -->
+<div class="store-section">
+    <h2>Club Dues</h2>
+
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+        <input type="hidden" name="cmd" value="_s-xclick">
+        <input type="hidden" name="hosted_button_id" value="6BDBF6TLSWE8C">
+        <table>
+            <tr><td><input type="hidden" name="on0" value="Membership type">Membership type</td></tr>
+            <tr><td><select name="os0">
+                <option value="Racing">Racing $40.00 USD</option>
+                <option value="Non-Racing">Non-Racing $20.00 USD</option>
+            </select> </td></tr>
+            <tr><td><input type="hidden" name="on1" value="Member Name">Member Name</td></tr>
+            <tr><td><input type="text" name="os1" maxlength="200"></td></tr>
+            <tr><td><input type="hidden" name="on2" value="Member Email">Member Email</td></tr>
+            <tr><td><input type="text" name="os2" maxlength="200"></td></tr>
+        </table>
+        <input type="hidden" name="currency_code" value="USD">
+        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynow_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+    </form>
+</div>
+
+<hr>
+
+<!-- Nationals payment button -->
+<div class="store-section">
+    <h2>Nationals payment ($50)</h2>
+
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+        <input type="hidden" name="cmd" value="_s-xclick">
+        <input type="hidden" name="hosted_button_id" value="3K2YR9SXFVRYN">
+        <table>
+        <tr><td><input type="hidden" name="on0" value="Member name">Member name</td></tr><tr><td><input type="text" name="os0" maxlength="200"></td></tr>
+        <tr><td><input type="hidden" name="on1" value="Member email">Member email</td></tr><tr><td><input type="text" name="os1" maxlength="200"></td></tr>
+        </table>
+        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynow_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+    </form>
+</div>

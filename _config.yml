@@ -1,0 +1,52 @@
+# Site settings
+title: Cross Country and Track Club at NC State
+email: cctrack-club@ncsu.edu
+description: > # this means to ignore newlines until "baseurl:"
+    The site of the NC State Club Cross Country and Track team! Visit our page to
+    learn about practices, meets, social events, and our team.
+baseurl: ""
+markdown: kramdown
+
+
+
+facebook_page: "https://www.facebook.com/groups/31185019441/"
+year: 2017
+
+
+
+page_data:
+  - title: "Home"
+    id: "home"
+    url: ""
+
+  - title: "Practice"
+    id: "practice"
+    url: "practice"
+
+  - title: "Training"
+    id: "training"
+    url: "training"
+ 
+  - title: "Schedule"
+    id: "schedule"
+    url: "schedule"
+
+  - title: "Race Results"
+    id: "race-results"
+    url: "race-results"
+
+  - title: "Store"
+    id: "store"
+    url: "store"
+
+  - title: "Club Officers"
+    id: "club-officers"
+    url: "club-officers"
+
+  - title: "FAQ"
+    id: "faq"
+    url: "faq"
+
+  - title: "Contact Us"
+    id: "contact-us"
+    url: "contact-us"

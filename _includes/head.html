@@ -1,0 +1,33 @@
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Facebook OpenGraph metadata (see http://ogp.me/) -->
+    <meta property="og:title"       content="Cross Country and Track Club at NC State">
+    <meta property="og:type"        content="website">
+                                                                    <!-- page.url includes a leading slash ('/') -->
+    <meta property="og:url"         content="https://clubs.ncsu.edu/crosscountry{{ page.url }}">
+    <meta property="og:image"       content="{{ site.baseurl }}/img/logo.png">
+    <meta property="og:description" content="Official website for the Cross Country and Track Club at NC State University. Schedule, practice information, gallery, store, results, and more!">
+
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/normalize.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/fonts.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="{{ site.baseurl }}/img/favicon.ico">
+
+    <!-- Custom CSS and JavaScript -->
+
+    {% for css_file in page.custom_css %}
+        <link rel="stylesheet" href="{{ site.baseurl }}/{{ css_file }}">
+    {% endfor %}
+
+    {% for js_file in page.custom_js %}
+        <script src="{{ site.baseurl }}/{{ js_file }}"></script>
+    {% endfor %}
+
+    <title>Club Cross Country and Track at NC State</title>
+</head>

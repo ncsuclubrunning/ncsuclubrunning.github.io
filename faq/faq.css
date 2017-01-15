@@ -1,0 +1,11 @@
+.question::before {
+    content: "Q: ";
+}
+
+.answer::before {
+    content: "A: ";
+}
+
+.faq-section {
+    text-align: center;
+}
