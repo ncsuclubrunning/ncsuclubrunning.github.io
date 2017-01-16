@@ -5,27 +5,37 @@
 
 # Use "!SITE_URL!" in profile image URLs when you need the value of site.baseurl to be inserted.
 
-- name: "Blake Lassiter"
-  position: "President"
-  image_url: "!SITE_URL!/img/blake_profile.jpg"
-  biography: "I am a senior, majoring in Computer Science, from High Point, NC. I am an Eagle Scout. I love running, and keeping up with pro and collegiate running, possibly a little too much. I am a self proclaimed miler, who broke 5:00 in my freshman year of college. My favorite run is probably when we run in downtown Raleigh on a Friday, because of our adoring car fans."
-
-- name: "Abby Verchick"
-  position: "Vice President"
-  image_url: "!SITE_URL!/img/abby_profile.jpg"
-  biography: "Hi! I’m a sophomore, from Pinehurst, North Carolina. I’m majoring in Human Biology with hopes of one day going to medical school and becoming a doctor. My favorite part about club running here at NC State is all of the great people you get to meet! When I’m not running, I also enjoy playing on the Club Soccer team, helping run the Student Government, coaching the next generation of runners, and cheering on the Wolfpack!"
-
 - name: "Mark Heidenfeldt"
-  position: "Treasurer"
+  position: "President"
   image_url: "!SITE_URL!/img/mark_profile.jpg"
-  biography: "I am a junior majoring in Electrical Engineering and am from Harrisburg, NC.  I’ve been running since I was in 7th grade and have played just about every other sport as well.  When I am not running I enjoy cooking (and eating), talking about pretty much any sport and sleeping."
+  biography: "Hey everyone. I am a super junior duel majoring in Electrical and Computer Engineering from Harrisburg, NC. I have been running since middle school and enjoy the places running takes me. After graduation I want to work for an aerospace company. Outside of that I love sports and watching ESPN. I also enjoy traveling but always look forward to having nothing to do. I’m a pretty open person once you know me, so come talk to me."
 
 - name: "Carmen Davis"
-  position: "Secretary"
+  position: "Vice President"
   image_url: "!SITE_URL!/img/carmen_profile.jpg"
   biography: "I am a sophomore, double majoring in chemical and textile engineering, from Greensboro, NC. In addition to running, I enjoy traveling (I’ve been to 17 states and 9 countries), shopping, baking, listening to Taylor Swift, and eating bagels (According to my friends I eat an excessive amount of bagels). When I am not at practice, you can probably find me struggling to bike up hills on campus, studying, watching Netflix, or eating Campfire Delight ice cream from Howling Cow!"
 
+- name: "Alex Wall"
+  position: "Vice President"
+  image_url: "!SITE_URL!/img/alex_profile.jpg"
+  biography: "Waddup? I am a sophomore from Winston-Salem, NC studying Molecular, Cellular, and Developmental Biology with a minor in Biotechnology. When I’m not running, you can find me in class, studying, working, reading, or eating. I’m a vegetarian long distance runner, so hit me up if you’re wondering about how the veg life doesn’t screw up athletics or if you want to know about anything else. I inherited the ability to store lots of useless knowledge from my dad, so if you ever need some fun facts, I got you covered."
+  
 - name: "Josh Rees-Jones"
-  position: "Webmaster"
+  position: "Coach"
   image_url: "!SITE_URL!/img/josh_profile.jpg"
   biography: "G'day! I'm a junior majoring in computer science from West Jefferson, NC. My Dad is from New Zealand, so I frequently imitate his accent. When I'm not running, I really enjoy computer science and math, especially machine learning and backend web development. I also listen to tons of music (I have more than 60 playlists on Spotify), travel some (18 states and 5 countries), and have a twin. I lived on a boat for 2.5 years as a kid. I like to think I'm somewhat friendly, so come talk to me anytime!"
+
+- name: "Ben Talbert"
+  position: "Treasurer"
+  image_url: "!SITE_URL!/img/ben_profile.jpg"
+  biography: "I am a sophomore from Charlotte, NC majoring in Industrial Engineering and minoring in Statistics. When I'm not running I thoroughly enjoy leading with Cru, disc golfing, playing cards, and eating organic peanut butter. I was Wolfpack born and raised, and my favorite part about the Club team here is being able to remain competitive without the commitment of Varsity athletics. Other interests include biking, skiing, netflix-ing, and eating organic peanut butter. Did I mention I like peanut butter?"
+  
+- name: "Taylor Warrick"
+  position: "Secretary"
+  image_url: "!SITE_URL!/img/taylor_profile.jpg"
+  biography: "I am a junior studying Biomedical engineering, with a minor in mathematics. I am from Chicago, the hometown of Kanye, deep dish pizza, and the current world series champions! I am an officer of Pi Beta Phi sorority, as well as a leader for my campus church group. I love being on the club as it offers me a place to push myself, and improve as a runner, while still maintaining a casual atmosphere. I have made life long friends, and my college experience would have been worse without the club"
+
+- name: "Turner Chaundy"
+  position: "Webmaster"
+  image_url: "!SITE_URL!/img/turner_profile.jpg"
+  biography: "I am a transfer sophomore from Solomons, Maryland majoring in Mechanical Engineering and minoring in Military Leadership. Outside of running with the club team I participate in NROTC so you can catch me walking around in uniform from time to time. I enjoy playing frisbee, going to the gym, watching shameless, and trying my hand at new things like this weird internet adjuster position. My favorite part about the club team is that everyone on the team is awesome to be around and I can be competitive without the stress of being competitive. Favorite sandwich: peanut butter and honey."
