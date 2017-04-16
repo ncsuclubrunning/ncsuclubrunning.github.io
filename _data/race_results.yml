@@ -13,6 +13,11 @@
 #  female_results_url: "!SITE_URL!/race-results/results/YYYY/XXXX-XX-XX-women.pdf"
 #  date: YYYY-MM-DD
 
+- name: "Art and Linda Maillet UNC Open"
+  male_results_url: "http://clubrunning.org/races/race_results.php?race=396"
+  female_results_url: "http://clubrunning.org/races/race_results.php?race=396"
+  date: 2017-01-14
+
 - name: "HPU Vertklasse Meeting"
   male_results_url: "http://clubrunning.org/races/race_results.php?race=396"
   female_results_url: "http://clubrunning.org/races/race_results.php?race=396"
