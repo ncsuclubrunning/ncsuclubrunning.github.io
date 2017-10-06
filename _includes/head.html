@@ -19,8 +19,18 @@
     <!-- Favicon -->
     <link rel="shortcut icon" href="{{ site.baseurl }}/img/favicon.ico">
 
-    <!-- Custom CSS and JavaScript -->
+    <!-- Global Site Tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107683515-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
 
+        gtag('config', 'UA-107683515-1');
+    </script>
+
+
+    <!-- Custom CSS and JavaScript -->
     {% for css_file in page.custom_css %}
         <link rel="stylesheet" href="{{ site.baseurl }}/{{ css_file }}">
     {% endfor %}
