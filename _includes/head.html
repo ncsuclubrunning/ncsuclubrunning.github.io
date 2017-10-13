@@ -7,8 +7,7 @@
     <!-- Facebook OpenGraph metadata (see http://ogp.me/) -->
     <meta property="og:title"       content="Cross Country and Track Club at NC State">
     <meta property="og:type"        content="website">
-                                                                    <!-- page.url includes a leading slash ('/') -->
-    <meta property="og:url"         content="https://clubs.ncsu.edu/crosscountry{{ page.url }}">
+    <meta property="og:url"         content="{{ site.url }}{{ page.url }}"> <!-- page.url includes a leading slash ('/') -->
     <meta property="og:image"       content="{{ site.baseurl }}/img/logo.png">
     <meta property="og:description" content="Official website for the Cross Country and Track Club at NC State University. Schedule, practice information, gallery, store, results, and more!">
 

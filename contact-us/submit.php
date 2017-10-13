@@ -17,7 +17,7 @@ id: "contact-us"
     $from = $_POST['from'];
     $message = $_POST['message'];
 
-    $to = 'cctrack-club@ncsu.edu';
+    $to = '{{ site.email }}';
     $subject = 'Message received from website feedback form';
     $email = "";
 
