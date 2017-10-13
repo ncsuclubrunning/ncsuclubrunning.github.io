@@ -4,7 +4,7 @@
 
 form {
     margin: 0 auto;
-    max-width: 550px;
+    max-width: 600px;
 }
 
 form table {
@@ -17,7 +17,7 @@ form table td {
 }
 
 form table tr td:first-child {
-    width: 150px;
+    width: 200px;
     text-align: right;
     vertical-align: top;
 }
