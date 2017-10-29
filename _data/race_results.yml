@@ -13,10 +13,7 @@
 #  female_results_url: "!SITE_URL!/race-results/results/YYYY/XXXX-XX-XX-women.pdf"
 #  date: YYYY-MM-DD
 
-- name: "Greensboro XC Challenge"
-  male_results_url: "!SITE_URL!/race-results/results/2017/2017-10-14-UNCA-6k-8k-men.pdf"
-  female_results_url: "!SITE_URL!/race-results/results/2017/2017-10-14-UNCA-6k-8k-women.pdf"
-  date: 2017-10-14
+
 
 - name: "Greensboro XC Challenge"
   male_results_url: "!SITE_URL!/race-results/results/2017/2017-09-30-Greensboro-XC-invitational-men.pdf"
