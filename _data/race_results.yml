@@ -26,9 +26,9 @@
 - name: "Run With The Pack"
   male_results_url: "!SITE_URL!/race-results/results/2017/2017-09-23-RWTP-men.pdf"
   female_results_url: "!SITE_URL!/race-results/results/2017/2017-09-23-RWTP-women.pdf"
-  date: 2017-23-15
+  date: 2017-09-23
 
-- name: "Addidas XC Challenge"
+- name: "Adidas XC Challenge"
   male_results_url: "!SITE_URL!/race-results/results/2017/2017-09-15-adidas-cross-country-challenge-men.pdf"
   female_results_url: "!SITE_URL!/race-results/results/2017/2017-09-15-adidas-cross-country-challenge-women.pdf"
   date: 2017-09-15
