@@ -27,12 +27,12 @@
 
 - name: "Lance Bullerwell"
   position: "Coach"
-  image_url: "!SITE_URL!/img/placeholder.jpg"
+  image_url: "!SITE_URL!/img/placeholder.png"
   biography: "Coming Soon!"
   
 - name: "Elizabeth Reidy"
   position: "Co-Sprint Coordinator"
-  image_url: "!SITE_URL!/img/elizabeth_profile.jpg"
+  image_url: "!SITE_URL!/img/elizabeth_profile.jpeg"
   biography: "Hello! I am a freshman majoring in Business Admin with a concentration in who knows what at this point. I was originally born in Vermont but 10 years ago I moved to Waxhaw, NC. When I am not running, I am usually watching Netflix or in the library. I am also a huge sports fan (I am beyond competitive) and I love to bake. I listen to all types of music but my favorite genre is country. I am also an avid fan of anything chocolate… and just food in general, honestly."
 
 - name: "Anu Frempong"
@@ -47,5 +47,5 @@
 
 - name: "Spencer Husen"
   position: "Webmaster"
-  image_url: "!SITE_URL!/img/spencer_profile.jpg"
+  image_url: "!SITE_URL!/img/spencer_profile.JPG"
   biography: "Coming Soon!"
