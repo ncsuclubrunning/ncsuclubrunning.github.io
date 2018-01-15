@@ -44,6 +44,11 @@
   position: "Treasurer"
   image_url: "!SITE_URL!/img/sara_profile.jpg"
   biography: "Hey folks! I’m Sara Bartczak from Pittsburgh, PA where I learned that XC is one hill of a sport in one of the rainiest cities around. As a current junior in chemical engineering, I’m excited to financially suit the needs of the club. I enjoy skiing, twizzlers, and of course puppies. Happy running!"
+  
+- name: "Sidney Allen"
+  position: "Secretary"
+  image_url: "!SITE_URL!/img/sidney_profile.JPG"
+  biography: "Hey y’all! I am a freshman majoring in Industrial Engineering and minoring in Statistics, and I am from Martinsville, VA. I’ve been running close to 10 years and plan to run even farther in my life. Outside of running, I love to do anything outdoors, watch YouTube videos on various subjects, or just hangout with my close friends. I’ve only been on campus for a short amount of time, but I’m excited to meet even more people as I begin my time as the club secretary."
 
 - name: "Spencer Husen"
   position: "Webmaster"
