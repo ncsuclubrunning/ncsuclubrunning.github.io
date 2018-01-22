@@ -13,6 +13,21 @@
 #  female_results_url: "!SITE_URL!/race-results/results/YYYY/XXXX-XX-XX-women.pdf"
 #  date: YYYY-MM-DD
 
+- name: "Wake Forest Invitational"
+  male_results_url: "!SITE_URL!/race-results/results/2018/2018-01-20-wake-forest-invitational-men.pdf"
+  female_results_url: "!SITE_URL!/race-results/results/2018/2018-01-20-wake-forest-invitational-women.pdf"
+  date: 2018-01-20
+
+- name: "NIRCA Cross Country National Championships"
+  male_results_url: "!SITE_URL!/race-results/results/2017/2017-11-11-nirca-nationals.pdf"
+  female_results_url: "!SITE_URL!/race-results/results/2017/2017-11-11-nirca-nationals.pdf"
+  date: 2017-11-11
+
+- name: "NIRCA Southeast Regional"
+  male_results_url: "!SITE_URL!/race-results/results/2017/2017-10-21-nirca-southeast-regional.pdf"
+  female_results_url: "!SITE_URL!/race-results/results/2017/2017-10-21-nirca-southeast-regional.pdf"
+  date: 2017-10-21
+
 - name: "UNC Asheville 6K/8K"
   male_results_url: "!SITE_URL!/race-results/results/2017/2017-10-14-UNCA-6k-8k-men.pdf"
   female_results_url: "!SITE_URL!/race-results/results/2017/2017-10-14-UNCA-6k-8k-women.pdf"
