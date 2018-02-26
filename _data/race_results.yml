@@ -16,7 +16,7 @@
 - name: "UCS Invitational"
   male_results_url: "!SITE_URL!/race-results/results/2018/2018-02-16-ucs-invitational-men.pdf"
   female_results_url: "!SITE_URL!/race-results/results/2018/2018-02-16-ucs-invitational-women.pdf"
-  date: 2016-02-16
+  date: 2018-02-16
 
 - name: "Krispy Kreme Challenge"
   male_results_url: "http://www.precisionrace.com/krispy-kreme-challenge-results/"
