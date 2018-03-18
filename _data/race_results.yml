@@ -13,6 +13,11 @@
 #  female_results_url: "!SITE_URL!/race-results/results/YYYY/XXXX-XX-XX-women.pdf"
 #  date: YYYY-MM-DD
 
+- name: "Charlotte 49er Classic"
+  male_results_url: "!SITE_URL!/race-results/results/2018/2018-03-15-charlotte-49er-classic-men.pdf"
+  female_results_url: "!SITE_URL!/race-results/results/2018/2018-03-15-charlotte-49er-classic-women.pdf"
+  date: 2018-03-15
+
 - name: "UCS Invitational"
   male_results_url: "!SITE_URL!/race-results/results/2018/2018-02-16-ucs-invitational-men.pdf"
   female_results_url: "!SITE_URL!/race-results/results/2018/2018-02-16-ucs-invitational-women.pdf"
