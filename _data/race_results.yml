@@ -13,6 +13,11 @@
 #  female_results_url: "!SITE_URL!/race-results/results/YYYY/XXXX-XX-XX-women.pdf"
 #  date: YYYY-MM-DD
 
+- name: "HPU Vertklasse Meeting"
+  male_results_url: "!SITE_URL!/race-results/results/2018/2018-04-06-hpu-vertklasse-men.pdf"
+  female_results_url: "!SITE_URL!/race-results/results/2018/2018-04-06-hpu-vertklasse-women.pdf"
+  date: 2018-04-06
+
 - name: "Charlotte 49er Classic"
   male_results_url: "!SITE_URL!/race-results/results/2018/2018-03-15-charlotte-49er-classic-men.pdf"
   female_results_url: "!SITE_URL!/race-results/results/2018/2018-03-15-charlotte-49er-classic-women.pdf"
