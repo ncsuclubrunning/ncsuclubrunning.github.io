@@ -22,8 +22,8 @@
 
 - name: "Lance Bullerwell"
   position: "Coach"
-  image_url: "!SITE_URL!/img/placeholder.png"
-  biography: "Coming Soon!"
+  image_url: "!SITE_URL!/img/lance_profile.png"
+  biography: "Hello. I'm a first year graduate student in Nuclear Engineering from Raleigh, NC. I look forward to helping you all grow as runners, whether trying to run PR's or just trying to stay in shape. When I'm not running or doing things related to running, you can probably find me rock climbing or studying. Mostly studying."
 
 - name: "Anu Frempong"
   position: "Co-Sprint Coordinator"
