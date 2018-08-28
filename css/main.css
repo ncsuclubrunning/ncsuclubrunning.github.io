@@ -61,7 +61,7 @@ hr {
 header {
     height: 230px;
     background-image: url("{{ site.baseurl }}/img/header.jpg");
-    background-size: 130%;
+    background-size: 100%;
     background-position: 0% 41%;
     border-bottom: 10px solid white;
 }
