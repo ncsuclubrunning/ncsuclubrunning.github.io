@@ -62,7 +62,7 @@ header {
     height: 230px;
     background-image: url("{{ site.baseurl }}/img/header.jpg");
     background-size: 100%;
-    background-position: 0% 41%;
+    background-position: 0% 20%;
     border-bottom: 10px solid white;
 }
 
