@@ -13,6 +13,11 @@
 #  female_results_url: "!SITE_URL!/race-results/results/YYYY/XXXX-XX-XX-women.pdf"
 #  date: YYYY-MM-DD
 
+- name: "Run With The Pack"
+  male_results_url: "!SITE_URL!/race-results/results/2018/2018-09-22-RWTP-men.pdf"
+  female_results_url: "!SITE_URL!/race-results/results/2018/2018-09-22-RWTP-women.pdf"
+  date: 2018-09-22
+
 - name: "HPU Vertklasse Meeting"
   male_results_url: "!SITE_URL!/race-results/results/2018/2018-04-06-hpu-vertklasse-men.pdf"
   female_results_url: "!SITE_URL!/race-results/results/2018/2018-04-06-hpu-vertklasse-women.pdf"
