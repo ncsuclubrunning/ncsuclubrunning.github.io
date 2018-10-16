@@ -53,7 +53,7 @@
   female_results_url: "!SITE_URL!/race-results/results/2018/2018-01-20-wake-forest-invitational-women.pdf"
   date: 2018-01-20
 
-- name: "NIRCA Cross Country National Championships"
+- name: "NIRCA XC National Championships"
   male_results_url: "!SITE_URL!/race-results/results/2017/2017-11-11-nirca-nationals.pdf"
   female_results_url: "!SITE_URL!/race-results/results/2017/2017-11-11-nirca-nationals.pdf"
   date: 2017-11-11
