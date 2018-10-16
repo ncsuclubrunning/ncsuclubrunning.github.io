@@ -13,6 +13,11 @@
 #  female_results_url: "!SITE_URL!/race-results/results/YYYY/XXXX-XX-XX-women.pdf"
 #  date: YYYY-MM-DD
 
+- name: "Carolina XC Classic"
+  male_results_url: "!SITE_URL!/race-results/results/2018/2018-09-29-carolina-xc-classic.pdf"
+  female_results_url: "!SITE_URL!/race-results/results/2018/2018-09-29-carolina-xc-classic.pdf"
+  date: 2018-09-29
+  
 - name: "Run With The Pack"
   male_results_url: "!SITE_URL!/race-results/results/2018/2018-09-22-RWTP-men.pdf"
   female_results_url: "!SITE_URL!/race-results/results/2018/2018-09-22-RWTP-women.pdf"
