@@ -13,6 +13,11 @@
 #  female_results_url: "!SITE_URL!/race-results/results/YYYY/XXXX-XX-XX-women.pdf"
 #  date: YYYY-MM-DD
 
+- name: "NIRCA XC National Championships"
+  male_results_url: "!SITE_URL!/race-results/results/2018/2018-11-10-nirca-nationals-men.pdf"
+  female_results_url: "!SITE_URL!/race-results/results/2018/2018-11-10-nirca-nationals-women.pdf"
+  date: 2018-11-10
+
 - name: "NIRCA Southeast Regional"
   male_results_url: "!SITE_URL!/race-results/results/2018/2018-10-21-nirca-southeast-regional.pdf"
   female_results_url: "!SITE_URL!/race-results/results/2018/2018-10-21-nirca-southeast-regional.pdf"
