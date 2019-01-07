@@ -5,42 +5,37 @@
 
 # Use "!SITE_URL!" in profile image URLs when you need the value of site.baseurl to be inserted.
 
-- name: "Ben Talbert"
+- name: "Sidney Allen"
   position: "President"
-  image_url: "!SITE_URL!/img/ben_profile.jpg"
-  biography: "Hey fellow runners! I am a senior from Charlotte, NC majoring in Industrial Engineering and minoring in Statistics. When I'm not running I thoroughly enjoy leading with Cru, disc golfing, playing cards, and eating organic peanut butter. I was Wolfpack born and raised, and my favorite part about the Club team here is being able to remain competitive without the commitment of Varsity athletics. Other interests include biking, skiing, netflix-ing, and eating organic peanut butter. Did I mention I like peanut butter?"
+  image_url: "!SITE_URL!/img/sidney_profile.JPG"
+  biography: "Hey y’all! I am a sophomore majoring in Industrial Engineering and minoring in Statistics, and I am from Martinsville, VA. I’ve been running close to 10 years and plan to run even farther in my life. Outside of running, I love to do anything outdoors, watch YouTube videos on various subjects, or just hangout with my close friends. I’ve only been on campus for a short amount of time, but I’m excited to meet even more people as I begin my time as the club secretary."
 
-- name: "Carmen Davis"
-  position: "Co-Vice President"
-  image_url: "!SITE_URL!/img/carmen_profile.jpg"
-  biography: "Hi everyone! I am a senior, double majoring in Chemical and Textile Engineering, from Greensboro, NC. I really enjoy running 5ks, half marathons, and marathons. In addition to running, I enjoy traveling (I’ve been to 21 states and 9 countries), backpacking, baking dairy-free desserts (I’m lactose intolerant!), listening to Taylor Swift, and eating avocados (According to my friends I eat an excessive amount of avocados). When I am not at practice you can probably find me struggling to bike up hills on campus, studying, planning my next travel adventure, or hanging with friends!"
- 
-- name: "Michael Ashburn"
-  position: "Co-Vice President"
-  image_url: "!SITE_URL!/img/michael_profile.jpg"
-  biography: "Hey everyone! I am a senior studying Mechanical Engineering and minoring in Computer Programming. I grew up in Jamestown, NC and have been running since middle school XC. My long term running goal is to race in the Boston Marathon, and I hope to run my first 26.2 in the next 2 years! When I'm not running, I enjoy listening to and making music as well as watching and talking about movies/ tv shows. I love being a part of the club team, and through it I have met a lot of my closest friends and workout buddies. I love conversing and meeting people, so feel free to talk to me anytime! (although if you mention any music/ movies/ shows I'm into, I may talk your ear off)"  
+- name: "Josh Horton"
+  position: "Vice President"
+  image_url: "!SITE_URL!/img/josh_profile.JPG"
+  biography: "What’s good everyone, my name is Joshua Horton and I’m a sophomore in Chemical Engineering. I’m from Hickory, North Carolina and I’ve been running for a little more than 4 years now. I also compete in Spartan Races alongside cross country and track and would definitely recommend them. Other than running, I enjoy playing video games from time to time, binge watching YouTube while eating “healthy” food, and often finding myself at a trampoline park. I’m looking forward to meeting new people on the team and I hope to be a good Vice President!"
 
 - name: "Lance Bullerwell"
-  position: "Coach"
+  position: "Head Coach"
   image_url: "!SITE_URL!/img/lance_profile.png"
   biography: "Hello. I'm a first year graduate student in Nuclear Engineering from Raleigh, NC. I look forward to helping you all grow as runners, whether trying to run PR's or just trying to stay in shape. When I'm not running or doing things related to running, you can probably find me rock climbing or studying. Mostly studying."
 
-- name: "Anu Frempong"
-  position: "Sprint Coordinator"
-  image_url: "!SITE_URL!/img/anu_profile.jpg"
-  biography: "Greetings! My name is Anu Frempong, a sophomore majoring in Nutrition Science with a minor in Music Performance. I am a native of Asheville, NC and started hurdling at the ripe old age of 7, and have loved it ever since. Aside from jumping over things, you can find me playing on the tennis courts, hiking, reading books, or playing various instruments. I love The Lumineers and Beyonce, and have been known for my obsession with bananas. The NC State XC/Track Club never seizes to pursue personal and communal development for the betterment of society, which is a lifelong goal that I am so excited to be apart of. I feel blessed to be a part of this team, and am looking forward to many great seasons!"
+- name: "Matthew Staehle"
+  position: "Assistant Coach"
+  image_url: "!SITE_URL!/img/matt_profile.jpg"
+  biography: "Hey y’all! I am a second semester sophomore studying Mechanical Engineering. I was born and raised in the great Bull City and graduated from Jordan High School in the spring of 2017. I started running as a freshman in high school and have been running competitively ever since. When I’m not exploring the outdoors through running, I enjoy hiking, camping and going out with my friends to play sports and just hang out. I have met many great people through this amazing running club here at NC State and am looking forward to meeting many more. I hope to assist Coach B in developing quality training and helping us become the best runners we can be this upcoming season. I look forward to seeing all of you at practice!"
 
-- name: "Sara Bartczak"
+- name: "Mack Brooks"
   position: "Treasurer"
-  image_url: "!SITE_URL!/img/sara_profile.jpg"
-  biography: "Hey folks! I’m Sara Bartczak from Pittsburgh, PA where I learned that XC is one hill of a sport in one of the rainiest cities around. As a current senior in chemical engineering, I’m excited to financially suit the needs of the club. I enjoy skiing, twizzlers, and of course puppies. Happy running!"
-  
-- name: "Sidney Allen"
+  image_url: "!SITE_URL!/img/mack_profile.jpg"
+  biography: "Hey everyone! My name is Mack Brooks and I am a Sophomore majoring in Business Administration from Fayetteville, NC. My Dad introduced me to running at an early age and it has been my passion ever since. I am extremely thankful to be able to continue this passion of mine with this club in college and have made some incredible memories and friends through it. When I am not running you can probably find me sailing with the Club Sailing team, another organization I am a part of here at NC State. I am excited to serve as the club Treasurer and can't wait for these upcoming seasons!"  
+
+- name: "Will Schneider"
   position: "Secretary"
-  image_url: "!SITE_URL!/img/sidney_profile.JPG"
-  biography: "Hey y’all! I am a sophomore majoring in Industrial Engineering and minoring in Statistics, and I am from Martinsville, VA. I’ve been running close to 10 years and plan to run even farther in my life. Outside of running, I love to do anything outdoors, watch YouTube videos on various subjects, or just hangout with my close friends. I’ve only been on campus for a short amount of time, but I’m excited to meet even more people as I begin my time as the club secretary."
+  image_url: "!SITE_URL!/img/will_profile.jpg"
+  biography: "Hey everyone! I'm a sophomore from Wilmington, NC, studying Biochemical Engineering and minoring in Biotechnology. I've been running since the start of high school and I've been passionate about it ever since, and I hope to continue to run far into the future! Outside of running, I like to spend my time fishing, watching ice hockey (go Canes!), reading about slightly obscure topics, and watching videos of dogs. I can't wait to have some fun with everyone this season and (hopefully) crush some big PRs!"
 
 - name: "Spencer Husen"
   position: "Webmaster"
   image_url: "!SITE_URL!/img/spencer_profile.JPG"
-  biography: "Howdy! I'm a junior in computer science from Hillsborough, NC. I started running local road races with my Dad when I was very young, and have had a passion for running for a long time. I am very blessed to have the opportunity to run with the guys and girls on this awesome team, and have already made some amazing friends in just the year and a half I've been at NC State. When I'm not at practice, you can find me grinding out creative Strava posts, binge-reading on Wikipedia, and watching sports with my roommates. I look very forward to serving the club through operating the club website and hope to bring some really cool improvements throughout the year!"
+  biography: "Howdy! I'm a junior in Computer Science from Hillsborough, NC. I started running local road races with my Dad when I was very young, and have had a passion for the sport as soon as I realized I was decent at it. I am very blessed to have the opportunity to run with the guys and girls on this awesome team, and have made some amazing friends in the two and half years I've been at NC State. When I'm not at practice, you can find me grinding out creative Strava posts, binge-reading on Wikipedia, and watching all kinds of stuff on YouTube. I look very forward to serving the club through operating the club website and hope to bring some really cool improvements throughout the year!"
