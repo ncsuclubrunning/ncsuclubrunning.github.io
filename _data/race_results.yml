@@ -13,6 +13,11 @@
 #  female_results_url: "!SITE_URL!/race-results/results/YYYY/XXXX-XX-XX-women.pdf"
 #  date: YYYY-MM-DD
 
+- name: "Wake Forest Invitational"
+  male_results_url: "!SITE_URL!/race-results/results/2019/2019-01-19-wake-forest-invitational-men.pdf"
+  female_results_url: "!SITE_URL!/race-results/results/2019/2019-01-19-wake-forest-invitational-women.pdf"
+  date: 2019-01-19
+
 - name: "NIRCA XC National Championships"
   male_results_url: "!SITE_URL!/race-results/results/2018/2018-11-10-nirca-nationals-men.pdf"
   female_results_url: "!SITE_URL!/race-results/results/2018/2018-11-10-nirca-nationals-women.pdf"
