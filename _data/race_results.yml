@@ -13,6 +13,11 @@
 #  female_results_url: "!SITE_URL!/race-results/results/YYYY/XXXX-XX-XX-women.pdf"
 #  date: YYYY-MM-DD
 
+- name: "Camel City Invitational"
+  male_results_url: "!SITE_URL!/race-results/results/2019/2019-02-01-camel-city-invitational-men.pdf"
+  female_results_url: "!SITE_URL!/race-results/results/2019/2019-02-01-camel-city-invitational-women.pdf"
+  date: 2019-02-01
+
 - name: "Wake Forest Invitational"
   male_results_url: "!SITE_URL!/race-results/results/2019/2019-01-19-wake-forest-invitational-men.pdf"
   female_results_url: "!SITE_URL!/race-results/results/2019/2019-01-19-wake-forest-invitational-women.pdf"
