@@ -15,6 +15,12 @@
 
 - name: "UCF Black & Gold Challenge"
   male_results_url: "!SITE_URL!/race-results/results/2019/2019-03-15-ucf-blackgold-challenge-men.pdf"
+  female_results_url: "!SITE_URL!/race-results/results/2019/2019-03-15-ucf-blackgold-challenge-women.pdf"
+  date: 2019-03-15
+
+- name: "Charlotte 49er Classic"
+  male_results_url: "!SITE_URL!/race-results/results/2019/2019-03-15-charlotte-49er-classic-men.pdf"
+  female_results_url: "!SITE_URL!/race-results/results/2019/2019-03-15-charlotte-49er-classic-women.pdf"
   date: 2019-03-15
 
 - name: "Camel City Invitational"
