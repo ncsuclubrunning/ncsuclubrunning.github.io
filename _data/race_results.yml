@@ -13,6 +13,10 @@
 #  female_results_url: "!SITE_URL!/race-results/results/YYYY/XXXX-XX-XX-women.pdf"
 #  date: YYYY-MM-DD
 
+- name: "UCF Black & Gold Challenge"
+  male_results_url: "!SITE_URL!/race-results/results/2019/2019-03-15-ucf-blackgold-challenge-men.pdf"
+  date: 2019-03-15
+
 - name: "Camel City Invitational"
   male_results_url: "!SITE_URL!/race-results/results/2019/2019-02-01-camel-city-invitational-men.pdf"
   female_results_url: "!SITE_URL!/race-results/results/2019/2019-02-01-camel-city-invitational-women.pdf"
