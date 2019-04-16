@@ -13,9 +13,14 @@
 #  female_results_url: "!SITE_URL!/race-results/results/YYYY/XXXX-XX-XX-women.pdf"
 #  date: YYYY-MM-DD
 
+- name: "Cavalier Classic"
+  male_results_url: "!SITE_URL!/race-results/results/2019/2019-03-30-cavalier-classic-men"
+  female_results_url: "!SITE_URL!/race-results/results/2019/2019-03-30-cavalier-classic-women.pdf"
+  date: 2019-03-30
+
 - name: "Raleigh Relays"
   male_results_url: "!SITE_URL!/race-results/results/2019/2019-03-30-raleigh-relays-men.pdf"
-  female_results_url: "!SITE_URL!/race-results/results/2019/2019-03-30-raleigh-relays-men.pdf"
+  female_results_url: "!SITE_URL!/race-results/results/2019/2019-03-30-raleigh-relays-women.pdf"
   date: 2019-03-30
 
 - name: "HPU Vertklasse Meeting"
